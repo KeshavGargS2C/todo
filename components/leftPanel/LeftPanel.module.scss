@@ -1,0 +1,44 @@
+.wrapper-container {
+    width: 310px;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.image-container {
+    padding-top: 48px;
+    padding-left: 34px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.options-container {
+    height: calc(100vh - 140px - 60px - 60px - 80px);
+    overflow-y: auto;
+}
+
+.logo-name-container {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding: 18px 52px;
+}
+
+.settings-container{
+    position: fixed;
+    bottom: 145px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding: 18px 52px;
+}
+
+.logout-container {
+    position: fixed;
+    bottom: 85px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding: 18px 52px;
+    cursor: pointer;
+}

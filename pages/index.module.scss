@@ -1,0 +1,179 @@
+.wrapper-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.image-container {
+  width: 480px;
+}
+
+.details-container {
+  width: 480px;
+  height: 374px;
+  border-radius: 65px;
+  border: 2px
+    solid
+    rgba(
+      26,
+      59,
+      88,
+      0.24
+    );
+  background: #fff;
+  padding: 80px
+    50px;
+}
+
+.login-signup-container {
+  margin-bottom: 48px;
+}
+
+.login-heading-selected {
+  color: #1a3b58;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 101.1%;
+  padding: 0
+    12px;
+}
+
+.login-heading-unselected {
+  color: rgba(
+    26,
+    59,
+    88,
+    0.33
+  );
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.1%;
+  padding: 0
+    12px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  padding: 36px
+    78px;
+  border-top: 2px
+    solid
+    rgba(
+      64,
+      145,
+      223,
+      0.12
+    );
+}
+
+.instructions-container {
+  display: flex;
+  flex-direction: column;
+  height: 49.49px;
+}
+
+.continue-heading {
+  color: #1a3b58;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 101.1%;
+}
+
+.continue-subheading {
+  color: #999;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.input-box {
+  width: 274px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px
+    solid
+    #cbdbea;
+  background: #fff;
+  padding: 0
+    20px;
+  outline: none;
+  color: #1a3b58;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.input-box::placeholder {
+  color: #b7c0c9;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.password-container {
+  width: 314px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px
+    solid
+    #cbdbea;
+  background: #fff;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-box-password {
+  outline: none;
+  border: none;
+  width: 256px;
+  height: 40px;
+  border-radius: 8px;
+  color: #1a3b58;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.input-box-password::placeholder {
+  color: #b7c0c9;
+  font-family: Poppins;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.image-password {
+  cursor: pointer;
+}
+
+.login-button {
+  width: 314px;
+  height: 45px;
+  border-radius: 8px;
+  background: #329c89;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 103.383%;
+  letter-spacing: 0.16px;
+}
